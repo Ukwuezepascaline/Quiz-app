@@ -58,9 +58,19 @@ let questions = [
     ]
   },
 
+  {
+    numb: 6,
+    question: "The external JavaScript file must contain the &lt;script&gt; tag?",
+    answer: "False",
+    options: [
+      "True",
+      "False",
+    ]
+  },
+
 
     {
-    numb: 6,
+    numb: 7,
     question: "What does SQL stand for?",
     answer: "Structured Query Language",
     options: [
@@ -71,9 +81,32 @@ let questions = [
     ]
   },
 
+  {
+    numb: 8,
+    question: "Is JavaScript as Java?",
+    answer: "No",
+    options: [
+      "No",
+      "Yes",
+    ]
+  },
+
+
+  {
+    numb: 9,
+    question: "How does a WHILE loop start?",
+    answer: "No",
+    options: [
+        "while i = 1 to 10",
+        "while (i &lt;= 10; i++)",
+         "while (i &lt;= 10)",
+      ,
+    ]
+  },
+
 
     {
-    numb: 7,
+    numb: 10,
     question: "What does XML stand for?",
     answer: "eXtensible Markup Language",
     options: [
