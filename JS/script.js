@@ -20,7 +20,8 @@ let questions = [
     options: [
     "NaN",
     "false",
-    "true"
+    "true",
+    "I don't know",
     ]
     },
   
@@ -43,6 +44,8 @@ let questions = [
   options: [
     "No",
     "Yes",
+    "Mr innocent didn't teach me",
+    "I'm not sure",
   ]
 },
 
@@ -65,6 +68,7 @@ let questions = [
     options: [
       "True",
       "False",
+      "None of the above"
     ]
   },
 
