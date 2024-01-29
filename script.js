@@ -3,37 +3,37 @@
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "What is the purpose of the async keyword in JavaScript??",
+    answer: "To define a function as asynchronous ",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "To define a function as asynchronous",
+      "To handle errors in asynchronous code",
+      "To create a new object",
+      "To define a callback function"
     ]
   },
 
   {
     numb: 2,
-    "question": "What will the following code return: Boolean(10 &gt; 9)",
-    answer: "true",
+    "question": "What is the purpose of the bind method in JavaScript?",
+    answer: "To set the value of this for a function",
     options: [
-    "NaN",
-    "false",
-    "true",
+    "To set the value of this for a function",
+    "To attach an event handler",
+    "To iterate over an array",
     "I don't know",
     ]
     },
   
     {
     numb: 3,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "What is a closure in JavaScript?",
+    answer: "A function that is defined inside another function",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "A variable that can be accessed from any part of the code",
+      "A function that is defined inside another function",
+      "A way to handle errors in asynchronous code",
+      "Mr Innocent did not teach us"
     ]
   },
 
@@ -44,7 +44,7 @@ let questions = [
   options: [
     "No",
     "Yes",
-    "Mr innocent didn't teach me",
+    "undefined",
     "I'm not sure",
   ]
 },
@@ -234,7 +234,7 @@ function showQuetions(index){
         option[i].setAttribute("onclick", "optionSelected(this)");
     }
 }
-// creating the new div tags which for icons
+// creating the new div tags for icons
 let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
 let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 
